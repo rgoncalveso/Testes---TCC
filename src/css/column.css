@@ -1,0 +1,26 @@
+.column {
+    padding: 10px;
+    float: left;
+    /*     width: 30%; */
+    left: 30px;
+    position: relative;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    padding: 10px;
+    width: 1000px;
+    border: 1px;
+}
+
+.columnPeriodo {
+    padding: 15px;
+}

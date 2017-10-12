@@ -1,0 +1,12 @@
+[
+    { "matricula": 1, "nome": "Hall Payne", "email": "mattis.ornare@montesnascetur.ca", "telefone": "(00)9859-5419", "especialidade": "Educação Física", "turno": "Matutino" },
+    { "matricula": 2, "nome": "Jelani Houston", "email": "et@malesuada.com", "telefone": "(39)8638-1863", "especialidade": "Fisioterapia", "turno": "Matutino" },
+    { "matricula": 3, "nome": "Armand Ramos", "email": "vulputate@euismodmauris.org", "telefone": "(01)9458-5175", "especialidade": "Dança", "turno": "Matutino" },
+    { "matricula": 4, "nome": "Moses Hopkins", "email": "Morbi.neque.tellus@vehicula.co.uk", "telefone": "(29)9464-0186", "especialidade": "Natação", "turno": "Matutino" },
+    { "matricula": 5, "nome": "Hayden Knight", "email": "Cum.sociis@In.net", "telefone": "(35)7445-0562", "especialidade": "Modelagem com Argila", "turno": "Matutino" },
+    { "matricula": 6, "nome": "Wylie Jennings", "email": "Aenean.massa@Sedid.edu", "telefone": "(69)6582-5877", "especialidade": "Fisioterapia", "turno": "Verspertino" },
+    { "matricula": 7, "nome": "Judah Porter", "email": "urna.suscipit@sitamet.org", "telefone": "(07)0398-8481", "especialidade": "Modelagem com Argila", "turno": "Verspertino" },
+    { "matricula": 8, "nome": "Lionel Donovan", "email": "velit.Quisque@metusInlorem.edu", "telefone": "(79)8559-7601", "especialidade": "Educação Física", "turno": "Verspertino" },
+    { "matricula": 9, "nome": "Xanthus Winters", "email": "libero.et.tristique@velnisl.edu", "telefone": "(66)5475-6986", "especialidade": "Natação", "turno": "Verspertino" },
+    { "matricula": 10, "nome": "Garrett Benton", "email": "tristique.senectus@Crasvehiculaaliquet.com", "telefone": "(79)8566-3160", "especialidade": "Dança", "turno": "Verspertino" }
+]

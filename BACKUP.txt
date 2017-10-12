@@ -1,0 +1,251 @@
+<div class="centralizar " align="center">
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="botao botao-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+      </button> -->
+
+    <!-- Modal -->
+    <!--  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">s
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="botao botao-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="botao botao-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!--     <div class="busca">
+        Incluir Professor
+    </div>
+    <br /> -->
+
+    <form action="" method="get" enctype="multipart/form-data" name="formulario">
+        <!-- <table class="table table-striped table-hover" width="50%" align="center" border="2">-->
+        <div class="incluirProfessor ">
+            <div class="column incluirProfessor">
+                <div>
+                    <div class="descricaoCampos">
+                        Nome:
+                    </div>
+
+                    <div class="campos">
+                        <input type="text" name="nome" size="50" maxlength="50" autocomplete="on" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="descricaoCamposCol2">
+                        Matrícula:
+                    </div>
+
+                    <div class="camposCol2">
+                        <input type="number" name="tel" size="09" maxlength="09" required>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="column">
+                <div>
+                    <div class="descricaoCampos">
+                        Especialidade:
+                    </div>
+
+                    <div class="campos">
+                        <input type="text" name="Especialidade" size="50" maxlength="50" required>
+                    </div>
+                </div>
+
+                <div class="descricaoCamposCol2">
+                    Turno:
+                </div>
+
+                <div class="camposCol2">
+                    <select id="codes">
+                                    <option value="Matutino">Matutino</option>
+                                    <option value="Vespertino">Vespertino</option>
+                    </select>
+
+                </div>
+            </div>
+            <!--  -->
+            <div class="column">
+                <div class="descricaoCamposCol2">
+                    Telefone:
+                </div>
+
+                <div class="camposCol2">
+                    <input type="number" name="tel" size="09" maxlength="09" required>
+                </div>
+
+            </div>
+            <br />
+            <br />
+        </div>
+        <div class="container">
+            <!-- Acordion Periodo com Alunos -->
+            <div class="row">
+                <div class="col-12">
+                    <button class="accordion botao-shadow botao-blue">Selecionar Período com aluno</button>
+                    <div class="panel">
+                        <div class="columnPeriodo">
+                            <table align="center">
+                                <thead class="table-hover columnPeriodo">
+                                    <tr>
+                                        <th>Dia da Semana:</th>
+                                        <th>Periodo:</th>
+                                    </tr>
+                                </thead>
+                                <!--  -->
+                                <tbody class="periodoSemana">
+                                    <tr class="periodoSemana">
+                                        <td class="periodoSemana">Segunda</td>
+                                        <td class="periodoSemana">
+                                            <div class="camposCol2">
+                                                <select id="codes">
+                                            <option value="Matutino">Matutino</option>
+                                            <option value="Vespertino">Vespertino</option>
+                                            <option value="integral">Integral</option>
+                                        </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="periodoSemana">Terça</td>
+                                        <td class="periodoSemana">
+                                            <div class="camposCol2">
+                                                <select id="codes">
+                                                <option value="Matutino">Matutino</option>
+                                                <option value="Vespertino">Vespertino</option>
+                                                <option value="integral">Integral</option>
+                                            </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="periodoSemana">Quarta</td>
+                                        <td class="periodoSemana">
+                                            <div class="camposCol2">
+                                                <select id="codes">
+                                                <option value="Matutino">Matutino</option>
+                                                <option value="Vespertino">Vespertino</option>
+                                                <option value="integral">Integral</option>
+                                            </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="periodoSemana">Quinta</td>
+                                        <td class="periodoSemana">
+                                            <div class="camposCol2">
+                                                <select id="codes">
+                                                <option value="Matutino">Matutino</option>
+                                                <option value="Vespertino">Vespertino</option>
+                                                <option value="integral">Integral</option>
+                                            </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="periodoSemana">Sexta</td>
+                                        <td class="periodoSemana">
+                                            <div class="camposCol2">
+                                                <select id="codes">
+                                                <option value="Matutino">Matutino</option>
+                                                <option value="Vespertino">Vespertino</option>
+                                                <option value="integral">Integral</option>
+                                            </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!-- Acordion -->
+            <div class="row">
+                <div class="column2 middle">
+                    <button class="accordion botao-shadow botao-blue">Dados complementares</button>
+                    <div class="panel">
+                        <div>
+                            <br />
+                            <div class="descricaoCampos">
+                                Endereço:
+                            </div>
+
+                            <div class="campos">
+                                <input type="text" name="nome" size="100" maxlength="100" autocomplete="on">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="descricaoCamposCol2">
+                                Data de Nascimento:
+                            </div>
+
+                            <div class="camposCol2">
+                                <input type="date">
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="descricaoCampos">
+                                Estado Civil:
+                            </div>
+
+                            <div class="campos">
+                                <select id="codes">
+                                            <option value="Selecione">Selecione</option>
+                                            <option value="Casado">Casado(a)</option>
+                                            <option value="Solteiro">Solteiro(a)</option>
+                                            <option value="Viuvo">Viuvo(a)</option>
+                                            <option value="Divorciado">Divorciado(a)</option>
+                                            </select>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>
+                            <div class="descricaoCamposCol2">
+                                E-mail:
+                            </div>
+
+                            <div class="camposCol2">
+                                <input type="text" name="tel" size="50" maxlength="50">
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="descricaoCamposCol2">
+                                Apelido:
+                            </div>
+
+                            <div class="camposCol2">
+                                <input type="text" name="apelido" size="20" maxlength="15" autocomplete="on">
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row  botaoEsquerda">
+            <div class=" incluirProfessor">
+                <button class="botao botao-blue botao-effect botao-round botao-shadow panel" type="submit" name="enviar" value="Enviar">Enviar</button>
+                <button class="botao botao-blue botao-effect botao-round botao-shadow panel" type="reset" name="limpar">Limpar</button>
+            </div>
+        </div>
+
+    </form>
+
+</div>

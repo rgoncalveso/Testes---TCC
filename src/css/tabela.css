@@ -1,0 +1,46 @@
+table,
+th,
+td {
+    text-align: left;
+}
+
+th {
+    width: 200px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1c1c65;
+    color: #F3F3F3;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 3px;
+}
+
+tr {
+    background-color: #F3F3F3;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.lupa {
+    color: black;
+    margin: 00px 0px 0px 10px;
+    width: 25px;
+    position: absolute;
+}
+
+tr:hover {
+    background-color: #1c1c65 !important;
+    color: #F3F3F3;
+}
+
+.periodoSemana {
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+}

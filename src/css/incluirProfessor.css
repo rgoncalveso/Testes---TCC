@@ -1,0 +1,62 @@
+/*---------------------------------------------------------------*/
+
+
+/*Campos e Descrições*/
+
+.incluirProfessor {
+    text-align: left;
+    padding: 10px;
+}
+
+.incl-Prof-descricaoCampos {
+    display: inline;
+    width: 150px;
+}
+
+.incl-Prof-campos {
+    margin: -17px 0px -20px 100px;
+}
+
+.incl-Prof-camposCol2 {
+    margin: 15px 0px -16px 67%;
+}
+
+.incl-Prof-descricaoCamposCol2 {
+    margin: -22px 0px -32px 57%;
+    display: block;
+}
+
+
+/*Final do CSS dos Campos e Descrições*/
+
+
+/*Função para ajustar a telas pequenas*/
+
+@media screen and (max-width: 767px) {
+    .incl-Prof-descricaoCampos {
+        display: inline;
+        width: 150px;
+    }
+    .incl-Prof-campos {
+        margin: -17px 0px -14px 100px;
+    }
+    .incl-Prof-camposCol2 {
+        margin: -1px 0px -17px 100px;
+    }
+    .incl-Prof-descricaoCamposCol2 {
+        margin: 19px 0px -21px 0px;
+        display: block;
+    }
+    /*     .botoes {
+        margin: 40% 0px 0px 60%;
+        display: fixed;
+    }
+    .botao {
+        border: none;
+        width: 75px;
+        height: 35px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+    } */
+}

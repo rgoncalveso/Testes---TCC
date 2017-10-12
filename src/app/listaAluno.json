@@ -1,0 +1,12 @@
+[
+    { "matricula": 1, "nome": "Hall Payne", "responsavel": "Moses Hopkins", "telefone": "(00)9859-5419", "deficiencia": "Transtornos do espectro autista", "turno": "Matutino" },
+    { "matricula": 2, "nome": "Jelani Houston", "responsavel": "Maria da Silva", "telefone": "(39)8638-1863", "deficiencia": "Transtorno de deficit de atenção com hiperatividade ", "turno": "Matutino" },
+    { "matricula": 3, "nome": "Armand Ramos", "responsavel": "João Paulo", "telefone": "(01)9458-5175", "deficiencia": "Sindrome de down", "turno": "Matutino" },
+    { "matricula": 4, "nome": "Moses Hopkins", "responsavel": "Erick dos Santos", "telefone": "(29)9464-0186", "deficiencia": "Síndrome de Turner", "turno": "Matutino" },
+    { "matricula": 5, "nome": "Hayden Knight", "responsavel": "José Santana", "telefone": "(35)7445-0562", "deficiencia": "Síndrome de Turner", "turno": "Matutino" },
+    { "matricula": 6, "nome": "Wylie Jennings", "responsavel": "Aline Almeida", "telefone": "(69)6582-5877", "deficiencia": "Síndrome de Klinefelter", "turno": "Verspertino" },
+    { "matricula": 7, "nome": "Judah Porter", "responsavel": "Maria da Silva", "telefone": "(07)0398-8481", "deficiencia": "Sindrome de down", "turno": "Verspertino" },
+    { "matricula": 8, "nome": "Lionel Donovan", "responsavel": "João Paulo", "telefone": "(79)8559-7601", "deficiencia": "Sindrome de Patau", "turno": "Verspertino" },
+    { "matricula": 9, "nome": "Xanthus Winters", "responsavel": "Erick dos Santos", "telefone": "(66)5475-6986", "deficiencia": "Transtorno de deficit de atenção com hiperatividade", "turno": "Verspertino" },
+    { "matricula": 10, "nome": "Garrett Benton", "responsavel": "Aline Almeida", "telefone": "(79)8566-3160", "deficiencia": "Sindrome de down", "turno": "Verspertino" }
+]
